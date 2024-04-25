@@ -12,9 +12,9 @@ function myButtonClicked() {
 
   if (alwaysOnButtonChecked == true) {
     document.getElementById("radio-button-value").innerHTML =
-      "<p>Value is: On</p>"
+      "<p>random number: 7 </p>"
   } else {
     document.getElementById("radio-button-value").innerHTML =
-      "<p>Value is: Off</p>"
+      "<p>random number : -6 </p>"
   }
 }
