@@ -15,6 +15,6 @@ function myButtonClicked() {
       "<p>random number: 7 </p>"
   } else {
     document.getElementById("radio-button-value").innerHTML =
-      "<p>random number : -6 </p>"
+      "<p>random number: -6 </p>"
   }
 }
