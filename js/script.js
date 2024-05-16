@@ -7,6 +7,7 @@
 /**
  * This function displays the slider value.
  */
+
 function generateRandomNumber() {
   // Get the value of the selected radio button
   const radioButton = document.querySelector('input[name="numberType"]:checked');
@@ -22,7 +23,7 @@ function generateRandomNumber() {
   // Generate a random number
   let randomNumber;
   if (numberType === 'positive') {
-    
+
     // Generate a random positive number
     randomNumber = Math.floor(Math.random() * 100) + 1; // Random number between 1 and 100
   } else if (numberType === 'negative') {
